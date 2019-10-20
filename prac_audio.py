@@ -6,7 +6,7 @@ import os
 import warnings
 import time
 
-# warnings.filterwarnings('ignore')
+warnings.filterwarnings('ignore')
 
 def mfcc(input_file):
 	for address, dirs, files in os.walk(input_file):
